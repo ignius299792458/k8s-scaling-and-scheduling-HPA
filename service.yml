@@ -10,5 +10,5 @@ spec:
   ports:
     - protocol: TCP
       port: 5050 # exposed port in the cluster
-      targetPort: 80 # containerPointer
+      targetPort: 5050 # containerPointer
   type: ClusterIP
